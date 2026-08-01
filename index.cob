@@ -10,5 +10,8 @@
 003600 05 sueldoBase PIC 9(5)V99 VALUE "9900099". 
 004000 PROCEDURE DIVISION.
 005000*Imprime los datos
-006000     DISPLAY numeroDeEmpleado.
-007000     STOP RUN.
+006000     DISPLAY "Numero de Empleado: " numeroDeEmpleado.
+007000     DISPLAY "Nombre Completo: " nombreCompleto.
+008000     DISPLAY "Departamento: " departamento.
+009000     DISPLAY "Sueldo Base: $" sueldoBase.
+009100     STOP RUN.
